@@ -1,0 +1,39 @@
+{
+  "name": "vite_cho_tam",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@arcgis/core": "4.19",
+    "@mapbox/mapbox-gl-draw": "^1.4.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "@turf/turf": "^6.5.0",
+    "arcgis-js-api": "4.19",
+    "axios": "^1.3.6",
+    "esri-loader": "^3.7.0",
+    "express": "^4.18.2",
+    "index.js": "^0.0.3",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "mapbox-gl": "^2.15.0",
+    "mobx": "^6.9.0",
+    "pg": "^8.10.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-tools": "^0.4.1",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.10.0",
+    "tiff.js": "^1.0.0"
+  }
+}

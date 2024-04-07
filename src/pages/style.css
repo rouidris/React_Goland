@@ -1,0 +1,373 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+.my-form {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #ffffff; /* Граница 1px толщиной и цвета #ccc (серый) */
+    background-color: #00AD9F; /* Цвет фона формы */
+    /* Добавьте другие стили, если необходимо */
+}
+.my-form p {
+    padding: 15px;
+    margin: 0;
+    color: white; /* Цвет текста белый */
+    font-size: 22px; /* Размер шрифта 16px (можете выбрать другой размер) */
+}
+
+.form-login {
+    text-align: center;
+    padding: 20px;
+    width: 350px; /* Задайте необходимую ширину */
+
+    margin-top: 100px; /* Центрирование формы */
+    margin-left: 587px;
+    background-color: rgba(76, 208, 220, 0.73);
+    border-radius: 35px;
+}
+.my-input {
+    font-size: 13px;
+    margin: 10px;
+
+}
+.my-label {
+    font-size: 22px;
+    padding: 25px;
+    display: block; /* Расположение меток в столбец */
+    margin-top: 10px;
+}
+
+label {
+    margin-top: 50px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 42px;
+    margin-bottom: 58px;
+    margin-top: 58px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    /*позиционирование по центру*/
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(180deg, #00AD9F 43.73%, rgba(0, 163, 94, 0) 100%);
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 22px;
+    height: 146px;
+}
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 1170px;
+    height: 794px;
+    background: linear-gradient(180deg, rgba(0, 174, 101, 0) 0%, #00AD9F 19.06%);
+}
+
+.offer p {
+    padding-top: 141px;
+    flex-grow: 1;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer img {
+    display: block;
+    object-fit: cover;
+    object-position: bottom;
+    width: 1170px;
+    height: 500px; /* задаем высоту контейнера для изображения */
+    /* остальные стили для изображения */
+    opacity: 0.87;
+}
+
+
+.offer h1 {
+    font-size: 70px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em
+}
+/*
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+} */
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+    width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 114px 0
+}
+
+.footer-text p {
+    margin-right: 67px;
+}
+
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 341px;
+    table-layout: fixed;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    background: #00AD9F;
+}
+
+td:nth-child(2), td:nth-child(4) {
+    background-color: #4FBFA5;
+}
+th:nth-child(2), th:nth-child(4) {
+    background-color: #4FBFA5;
+}
+
+
+input[type="date"] {
+    -webkit-appearance: none;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+
+select option {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+}
+button {
+    align-content: center;
+    margin: 24px;
+    background-color: #4cdc7f;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.zakaz{
+    align-content: center;
+    margin-left: 427px;
+    margin-top: 10px;
+    background-color: #ff5f79;
+    color: white;
+    font-size: 16px;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.jiji{
+    align-content: center;
+    margin-left: 127px;
+    margin-top: 10px;
+    background-color: #ff5f79;
+    color: white;
+    font-size: 16px;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.reg {
+    width: 500px;
+    padding: 5px;
+
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.registration-form button[type="submit"]:hover {
+    background-color: #005faa;
+}
+
+.submit {
+    background-color: #57c711;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.button {
+    margin-left: 12px;
+    background-color: #310009;
+    color: white;
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
